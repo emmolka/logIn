@@ -13,7 +13,6 @@ logIn.addEventListener('click',function(){
 function logInCheck(u,p){
     if(localStorage.getItem(u)===null){
         failed.classList.add('show');
-        successfully.classList.add('show')
     }else if(localStorage.getItem(u)===p){
         successfully.classList.add('show');
         failed.classList.remove('show');
@@ -48,9 +47,6 @@ function signUp(u,p){
     successfully.classList.add('show');
     failed.classList.add('hide');
 }
-/*let guy = 'password';
-let guySerialized = JSON.stringify(guy);
-localStorage.setItem('imie', guy);
-console.log(localStorage.imie)
-*///
+
+
 
