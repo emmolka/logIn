@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./background.jpg');
+    background-position: center center; 
+    background-size:cover;
+    background-repeat:none;
+    
+    height: 100vh;
+}
+.log-in{
+    background-color: rgba(17, 16, 16, 0.534);
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,0);
+    border-radius:3px;
+}
+.elements{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.log-in-sign{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,0);
+    color:white;
+    font-size:170%;
+}
+input{
+    width:260px;
+    margin-left:20px;
+    height:26px;
+    padding-bottom:1px;
+}
+#username{
+    position:absolute;
+    top:30%;
+    padding-left:30px;
+}
+.user{
+    color:black;
+    position: absolute;
+    top:30%;
+    left:7%;
+    font-size:160%;
+}
+#password{
+    position:absolute;
+    top:45%;
+    padding-left:30px;
+}
+.key{
+    color:black;
+    position: absolute;
+    top:45%;
+    left:7%;
+    font-size:160%;
+
+}
+button{
+    width:260px;
+    margin-left:20px;
+    height:28px;
+    cursor:pointer;
+    background-color:#fff;
+    border:solid white 1px;
+    border-radius: 3px;
+}
+.log-in-button{
+    position:absolute;
+    bottom:22%;
+}
+a{
+    color:white;
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+   
+}
+button:hover{
+    background-color:rgb(112, 98, 98);
+    border:solid rgb(112, 98, 98) 1px;
+    transition:background-color 0.3s;  
+    color:white;
+}
+a:hover{
+    color:rgb(112, 98, 98);
+    transition:color 0.3s; 
+
+}
+.register{
+    position:absolute;
+    bottom:11%;
+    left:50%;
+    transform:translate(-50%,0);
+
+}
+.forget{
+    position:absolute;
+    bottom:4%;
+    left:50%;
+    transform:translate(-50%,0);
+}
+/*REGISTER*/
+#username-register{
+    position:absolute;
+    top:30%;
+}
+
+#password-register{
+    position:absolute;
+    top:45%;
+}
+.sign-up-button{
+    position:absolute;
+    bottom:22%;
+}
+
+p .sign-up-button{
+    display:none;
+}
+p .log-in-button{
+    display: none;
+}
+.successfully{
+    color:white;
+    position:absolute;
+    top:38%;
+    left:50%;
+    transform:translate(-50%,0);
+    font-size:120%;
+    text-transform: uppercase;
+    display:none;
+}
+.failed{
+    color:white;
+    position:absolute;
+    top:38%;
+    left:50%;
+    transform:translate(-50%,0);
+    font-size:120%;
+    text-transform: uppercase;
+    display:none;
+}
+.show{
+    display:block;
+}
+
